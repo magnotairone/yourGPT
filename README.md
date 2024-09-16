@@ -4,7 +4,7 @@ _The RAG-Powered PDF Explorer helps you create `yourGPT`!_
 
 This Shiny app combines the power of OpenAI's GPT-4o-mini model and Pinecone's vector database to allow users to upload and interact with their PDF documents in a conversational manner. It seamlessly integrates R and Python through the reticulate package, enabling R users to leverage large language models (LLMs) implemented in Python. The app employs the Retrieval-Augmented Generation (RAG) technique to enhance user queries with relevant document context, enabling a deeper and more efficient exploration of the content.
 
-### Requirements
+### Requirements to Use the App
 
 To run the **RAG-Powered PDF Explorer**, you will need the following:
 
