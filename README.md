@@ -4,6 +4,8 @@ _The RAG-Powered PDF Explorer helps you create `yourGPT`!_
 
 This Shiny app combines the power of OpenAI's GPT-4o-mini model and Pinecone's vector database to allow users to upload and interact with their PDF documents in a conversational manner. It seamlessly integrates R and Python through the reticulate package, enabling R users to leverage large language models (LLMs) implemented in Python. The app employs the Retrieval-Augmented Generation (RAG) technique to enhance user queries with relevant document context, enabling a deeper and more efficient exploration of the content.
 
+This Shiny app allows users to upload and interact with their PDF documents in a conversational manner using OpenAI's GPT-4o-mini and Pinecone's vector database. It integrates R and Python through the **reticulate** package, enabling R users to utilize advanced language models (LLMs) implemented in Python, and employs the Retrieval-Augmented Generation (RAG) technique for deeper and more efficient content exploration.
+
 ### Requirements to Use the App
 
 To run the **RAG-Powered PDF Explorer**, you will need the following:
@@ -11,7 +13,6 @@ To run the **RAG-Powered PDF Explorer**, you will need the following:
 - **OpenAI Account**: You must have an active account with OpenAI and an API key to access GPT-4o-mini or other available models. You can create an account and obtain your API key at [OpenAI's API page](https://beta.openai.com/).
 - **Pinecone Account**: You will need an account with Pinecone and an API key to manage your vector database for storing document embeddings. Pinecone offers a free tier that supports indexes up to 2GB. You can sign up and get your API key at [Pinecone's website](https://www.pinecone.io/).
 - **PDF File**: A PDF document containing text that you want to interact with. This app is designed to handle text-based PDFs, so ensure that your document is in a readable format for accurate queries and interactions.
-<!--- **R and Python**: If The app requires both R and Python environments due to the integration of large language models through the **reticulate** package. Ensure both environments are set up properly with access to required packages.-->
 
 ### How to Use the App
 
@@ -44,11 +45,10 @@ This mini tutorial will guide you through the steps required to start interactin
 
 ### Technical Specifications:
 
-- **Integration with Python**: Using the **reticulate** package, the app combines the strengths of R and Python. This enables R users to access and interact with **LLMs (Large Language Models)**, such as GPT-4o-mini, that are implemented in Python's LangChain. This powerful combination allows the Shiny app to process PDFs, generate embeddings, and perform sophisticated document queries.
-- **RAG System**: Uses Retrieval-Augmented Generation to provide precise, context-aware responses by retrieving relevant pieces of the document.
-- **Back-End**: Integration with OpenAI for GPT-4o-mini queries and Pinecone for vector search.
-- **Pinecone Indexing**: The embedded PDF content is stored in Pinecone's vector database, allowing for efficient retrieval of relevant document sections during queries.
-- **Langchain**: Langchain manages the integration between GPT-4o-mini and Pinecone, ensuring contextually accurate responses based on relevant sections of the PDF.
+- **Integration with Python**: The app uses **reticulate** to integrate R and Python seamlessly. This allows R users to leverage Python's **Langchain** for managing interactions between GPT-4o-mini and Pinecone, facilitating advanced document processing and retrieval tasks.
+- **RAG System**: Utilizes the Retrieval-Augmented Generation (RAG) technique to generate precise, context-aware responses by retrieving relevant pieces of the document stored in Pinecone's vector database.
+- **Back-End**: The app integrates with OpenAI for GPT-4o-mini queries and uses Pinecone for storing and retrieving document embeddings.
+- **Pinecone Indexing**: The PDF content is embedded and stored in Pinecone's vector database, enabling fast and efficient document retrieval during queries.
 
 
 ### Potential Use Cases:
