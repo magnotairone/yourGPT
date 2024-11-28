@@ -1,4 +1,4 @@
-# TAG-Powered PDF Explorer: A Conversational Interface for Your Documents
+# RAG-Powered PDF Explorer: A Conversational Interface for Your Documents
 
 _The RAG-Powered PDF Explorer helps you create `yourGPT`!_
 
